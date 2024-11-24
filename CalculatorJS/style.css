@@ -1,0 +1,100 @@
+body {
+     background-color: rgb(38, 38, 39);
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+}
+
+header {
+     margin-bottom: 20px;
+}
+
+.calculator_font {
+     font-family: "Ubuntu", sans-serif;
+     font-weight: 500;
+     font-size: 36px;
+     text-align: center;
+     color: aliceblue;
+     font-style: bold;
+}
+
+.calculator-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.input-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 20px;
+}
+
+.input1, .input2 {
+     border-radius: 10px; 
+     border: 1px solid #ccc; 
+     padding: 10px; 
+     font-size: 20px; 
+     width: 300px;
+     margin: 5px 0;
+}
+
+.button-container {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+}
+
+.operation-button {
+     font-family: "Ubuntu", sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+     border-radius: 10px; 
+     padding: 20px; 
+     margin: 0 10px;
+     width: 60px; 
+     height: 60px; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.first_button {
+     border: 1px solid rgb(12, 186, 122); 
+     background-color: rgb(12, 186, 122);
+}
+
+.second_button {
+     border: 1px solid rgb(215, 67, 67); 
+     background-color: rgb(215, 67, 67);
+}
+
+.third_button {
+     border: 1px solid rgb(219, 93, 185); 
+     background-color: rgb(219, 93, 185);
+}
+
+.fourth_button {
+     border: 1px solid rgb(181, 86, 232); 
+     background-color: rgb(181, 86, 232);
+}
+
+.submit_button {
+     border-radius: 10px; 
+     border: 3px solid #1fabf0; 
+     padding: 15px; 
+     font-size: 20px; 
+}
+
+.result {
+     font-family: "Ubuntu", sans-serif;
+     font-weight: 500;
+     font-size: 36px;
+     text-align: center;
+     color: aliceblue;
+     font-style: bold;
+}
