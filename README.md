@@ -18,6 +18,7 @@ This is a simple calculator built using HTML, CSS and JavaScript. It allows you 
 
 **2. Open the *index.html* file in your browser:**
 Double click on the index.html file and it will open in your default browser.
+
 **3. Start calculating:**
 Use the calculator buttons to enter numbers and perform operations.
 
